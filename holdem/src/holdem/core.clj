@@ -35,5 +35,8 @@
       (.println "Take 5: ")
       (print-cards hand)
       (.println)
+      (.println "Hand sorted:")
+      (print-cards (sort-cards hand))
+      (.println)
       (.println "Deck after taking 5:")
       (print-cards after-pick))))
